@@ -1,0 +1,24 @@
+{
+  "name": "bas-atm",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["atm","typescript"],
+  "author": "Bilal (BAS)",
+  "license": "MIT",
+  "dependencies": {
+    "password-prompt": "^1.1.3",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/prompt-sync": "^4.2.3",
+    "@types/readline-sync": "^1.4.8"
+  }
+}
